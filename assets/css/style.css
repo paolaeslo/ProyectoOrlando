@@ -196,13 +196,16 @@ body {
   padding-bottom: 2px;
   margin: -32px 0px 0px -248px;
 }
+.navbar-nav {
+  margin-left: 1137px !important;
+  font-size: 17px;
+}
 
 .navbar-nav > li > a {
   padding: 5px 0;
   font-weight: 600;
   color: black;
   text-transform: uppercase;
-
   transition: border-color 0.25s ease-in-out;
   -moz-transition: border-color 0.25s ease-in-out;
   -webkit-transition: border-color 0.25s ease-in-out;
@@ -217,7 +220,7 @@ body {
 }
 
 .navbar-nav > li + li > a {
-  margin-left: 40px;
+  margin-left: 42px;
 }
 
 .navbar-nav > li > a:hover,

@@ -22,7 +22,11 @@
   }
 
   .hero {
-    min-height: 600px;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .hero .col-md-6:first-child {
+    margin: 720px 0 0 270px;
   }
 
   .hero img {
@@ -51,7 +55,7 @@
     margin-top: -53px;
   }
   h4 {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .btn {
@@ -77,8 +81,12 @@
     font-size: 20px;
   }
 
-  .hero img {
-    height: 420px;
+  .hero {
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .hero .col-md-6:first-child {
+    margin: 620px 0 0 170px;
   }
 
   .site-section {

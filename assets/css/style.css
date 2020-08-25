@@ -263,6 +263,13 @@ body {
   margin-top: 19px;
 }
 
+.contenedor-carrusel {
+  position: relative;
+  width: 60%;
+  margin-top: 146px;
+  margin-left: 362px;
+}
+
 .hero .col-md-6:first-child {
   position: absolute;
   top: 35%;

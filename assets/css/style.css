@@ -197,11 +197,13 @@ body {
   margin: -32px 0px 0px -248px;
 }
 .navbar-nav {
-  margin-left: 600px !important;
+  margin-left: 642px !important;
   font-size: 16px;
+  margin-top: 8px;
 }
 .navbar-brand {
   margin-left: 209px !important;
+  margin-top: 27px;
 }
 
 .navbar-nav > li > a {
@@ -245,22 +247,20 @@ body {
   margin-block: -5px !important;
 }
 .hero-contenedor {
-  padding: 64px 100px;
-  width: 94%;
-  margin-left: 27px;
+  width: 100%;
 }
 .hero {
-  background: url(../img/hero1.jpg) no-repeat center / cover;
-  width: 66%;
-  min-height: 697px;
-  margin-left: 279px;
-  margin-top: -36px;
+  background: url(../img/hero.jpg) no-repeat center / cover;
+  width: 95%;
+  min-height: 703px;
+  margin-left: 47px;
+  margin-top: 60px;
 }
 
 .hero .container {
   position: relative;
   height: 100%;
-  margin-top: 26px;
+  margin-top: 19px;
 }
 
 .hero .col-md-6:first-child {
@@ -275,14 +275,14 @@ body {
   z-index: 2;
   color: white;
   margin-bottom: 500px;
+  margin-top: 532px;
 }
 
 .hero .col-md-6:last-child {
   position: absolute;
   right: 0;
   bottom: 0;
-  margin-left: 335px;
-  margin-top: 701px;
+  margin-left: 376px;
 }
 
 .hero h1 {
@@ -310,7 +310,7 @@ body {
 }
 
 .site-section {
-  padding-top: 160px;
+  padding-top: 60px;
 }
 
 .site-section h2,
@@ -322,6 +322,10 @@ body {
 
 .img-lines {
   margin: 15px 0 40px;
+}
+.img-logo {
+  width: 20%;
+  margin-left: 126px;
 }
 
 .site-section p {
@@ -356,7 +360,7 @@ body {
 
 .section-services {
   position: relative;
-  margin-top: 100px;
+  margin-top: 43px;
 }
 
 .section-services:before {
@@ -461,8 +465,8 @@ body {
 }
 
 .portfolio-item-info a {
-  padding: 6px 7px 4px;
-  font-size: 12px;
+  padding: 8px 9px 6px;
+  font-size: 15px;
   border: 1px solid #fff;
   border-radius: 50px;
   color: #fff;
@@ -472,11 +476,12 @@ body {
     background-color 0.25s ease-in-out;
   -o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
   -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+  margin-left: -12px;
 }
 
 .portfolio-item-info a:hover {
-  color: #212121;
-  background-color: #fff;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .section-portfolio .btn {

@@ -114,8 +114,8 @@ h4 {
 
 .btn-border {
   background-color: transparent;
-  color: #212121;
-  border: 1px solid #212121;
+  color: white;
+  border: 1px solid white;
 }
 
 .btn-fill:hover,
@@ -250,11 +250,10 @@ body {
   width: 100%;
 }
 .hero {
-  background: url(../img/hero.jpg) no-repeat center / cover;
   width: 95%;
   min-height: 703px;
   margin-left: 47px;
-  margin-top: 60px;
+  margin-top: px;
 }
 
 .hero .container {
@@ -282,14 +281,14 @@ body {
   z-index: 2;
   color: white;
   margin-bottom: 500px;
-  margin-top: 532px;
 }
 
 .hero .col-md-6:last-child {
   position: absolute;
   right: 0;
   bottom: 0;
-  margin-left: 376px;
+  margin-left: 363px;
+  margin-top: -254px;
 }
 
 .hero h1 {
@@ -298,15 +297,16 @@ body {
   margin: 60px 0 15px;
   text-transform: uppercase;
 }
+.hero img {
+  width: 90%;
+  margin-top: 119px;
+  margin-left: 70px;
+}
 
 .job-title {
   font-size: 22px;
   margin-bottom: 30px;
   line-height: 1;
-}
-
-.hero img {
-  height: 600px;
 }
 
 .site-main {
@@ -367,7 +367,7 @@ body {
 
 .section-services {
   position: relative;
-  margin-top: 43px;
+  margin-top: -20px;
 }
 
 .section-services:before {
@@ -580,6 +580,56 @@ body {
 
 .section-form .btn {
   margin-top: 40px;
+}
+.features:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.features .feature {
+  display: block;
+  float: left;
+}
+.feature {
+  border-color: #e3e3e3;
+}
+.feature {
+  padding: 2em 2em 0.1em 2em;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: -1px;
+  margin-top: -1px;
+  width: 33.33333%;
+  text-align: justify;
+}
+.features {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.wrapper > .inner {
+  margin: 0 auto;
+  width: 65em;
+}
+.wrapper {
+  margin-bottom: 50px;
+}
+.features img {
+  width: 70px;
+  height: 70px;
+  margin-left: 103px;
+  margin-bottom: 41px;
 }
 
 /* FOOTER

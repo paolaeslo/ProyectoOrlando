@@ -1,6 +1,5 @@
 window.addEventListener("load", function () {
   new Glider(document.querySelector(".carousel__lista"), {
-    slidesToScroll: 1,
     slidesToShow: 1,
     dots: ".carousel__indicadores",
     arrows: {
@@ -12,14 +11,12 @@ window.addEventListener("load", function () {
         breakpoint: 400,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
         },
       },
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 5.5,
-          slidesToScroll: 1,
+          slidesToShow: 3,
         },
       },
     ],

@@ -692,11 +692,6 @@
 
   /* Footer */
 
-  .contenedor1-footer {
-    flex-direction: column;
-    border: none;
-  }
-
   .content-foo {
     margin-bottom: 20px;
     text-align: center;

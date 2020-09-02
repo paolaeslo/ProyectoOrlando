@@ -36,9 +36,18 @@
     width: 100%;
     margin-left: 0px;
   }
+  .cards img {
+    width: 42%;
+    margin-left: 62px;
+    margin-bottom: 41px;
+  }
 }
 
 @media only screen and (max-width: 1198px) {
+  .wrapper > .inner {
+    margin: 0 auto;
+    width: 41em;
+  }
   .navbar-nav > li > a {
     margin-left: 29px;
   }
@@ -72,6 +81,16 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .cards {
+    width: 90%;
+
+    margin-left: 42px;
+  }
+  .cards img {
+    width: 32%;
+    margin-left: 67px;
+    margin-bottom: 41px;
+  }
   .site-logo img {
     margin: -6px 0px 0px -19px;
     width: 70%;
@@ -162,6 +181,11 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .cards img {
+    width: 15%;
+    margin-left: 204px;
+    margin-bottom: 41px;
+  }
   .contenedor-carrusel {
     width: 80%;
   }
@@ -575,6 +599,11 @@
 }
 
 @media screen and (max-width: 900px) {
+  .cards img {
+    width: 17%;
+    margin-left: 160px;
+    margin-bottom: 41px;
+  }
   .header {
     background-position: center;
   }
@@ -601,18 +630,8 @@
 
   /* Clientes */
 
-  .cards {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .cards .card {
     width: 90%;
-  }
-
-  .cards .card:first-child {
-    margin-bottom: 30px;
   }
 
   /* servicios */
@@ -638,6 +657,11 @@
 }
 
 @media screen and (max-width: 500px) {
+  .cards {
+    width: 100%;
+    margin-left: -4px;
+    margin-bottom: 14em;
+  }
   .hero .col-md-6:first-child {
     margin-top: -256px;
     margin-left: 99px;
@@ -679,15 +703,15 @@
   /* Clients */
 
   .cards .card {
-    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .cards .card img {
-    width: 90px;
+    width: 22%;
     height: 90px;
+    margin-left: 3px;
   }
 
   /* Footer */

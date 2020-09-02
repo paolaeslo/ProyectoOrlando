@@ -1,3 +1,22 @@
+@media only screen and (max-width: 1924px) {
+  .feature {
+    padding: 2em 2em 0.1em 2em;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: -1px;
+    margin-top: -1px;
+    width: 100%;
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 1686px) {
+  .navbar-nav > li > a {
+    margin-left: 449px;
+  }
+  .features {
+    width: 96%;
+  }
+}
 @media only screen and (max-width: 1574px) {
   .site-logo img {
     margin: -6px 0px 0px -19px;
@@ -10,15 +29,26 @@
   .container-b {
     margin-top: 0px;
   }
-  .navbar-nav.navbar-right {
-    margin-right: -16px;
-    font-size: 14px;
+  .navbar-nav > li > a {
+    margin-left: 549px;
+  }
+  .contenedor1 {
+    margin-left: 245px;
+  }
+}
+@media only screen and (max-width: 1236px) {
+  .features {
+    width: 96%;
+  }
+  .contenedor1 {
+    width: 100%;
+    margin-left: 0px;
   }
 }
 
 @media only screen and (max-width: 1198px) {
-  .navbar-nav > li + li > a {
-    margin-left: 30px;
+  .navbar-nav > li > a {
+    margin-left: 29px;
   }
 
   .hero {
@@ -26,7 +56,7 @@
     margin: 0 0 0 0;
   }
   .hero .col-md-6:first-child {
-    margin: 720px 0 0 270px;
+    margin-left: 250px;
   }
 
   .hero img {
@@ -50,6 +80,9 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .features {
+    width: 72%;
+  }
   .site-logo img {
     margin: -6px 0px 0px -19px;
     width: 70%;
@@ -90,7 +123,7 @@
     margin: 0 0 0 0;
   }
   .hero .col-md-6:first-child {
-    margin: 620px 0 0 170px;
+    margin-left: 150px;
   }
 
   .site-section {
@@ -151,6 +184,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .features {
+    width: 50%;
+  }
   .contenedor-carrusel {
     width: 80%;
   }
@@ -396,6 +432,9 @@
 }
 
 @media only screen and (max-width: 479px) {
+  .features {
+    width: 35%;
+  }
   .contenedor-carrusel {
     width: 86%;
     margin-left: 20px;
@@ -454,7 +493,7 @@
   .navbar-nav > li > a {
     padding: 5px 0;
     font-weight: 600;
-    color: white;
+    color: black;
     text-transform: uppercase;
     transition: border-color 0.25s ease-in-out;
     -moz-transition: border-color 0.25s ease-in-out;

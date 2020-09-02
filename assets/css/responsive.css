@@ -44,6 +44,10 @@
 }
 
 @media only screen and (max-width: 1198px) {
+  .portfolio-item-info a {
+    font-size: 12px;
+    margin-left: -45px;
+  }
   .wrapper > .inner {
     margin: 0 auto;
     width: 41em;
@@ -87,7 +91,7 @@
     background-color: #fff;
   }
   .portfolio-item-info a {
-    font-size: 12px;
+    font-size: 9px;
     margin-left: -45px;
   }
   .cards {

@@ -131,8 +131,8 @@
     margin: 0 0 0 0;
   }
   .hero .col-md-6:first-child {
-    margin-left: 112px;
-    margin-top: -194px;
+    margin-left: 191px;
+    margin-top: -247px;
   }
 
   .section-skills,
@@ -181,6 +181,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .hero .col-md-6:first-child {
+    margin-left: 102px;
+    margin-top: -209px;
+  }
   .cards img {
     width: 15%;
     margin-left: 204px;
@@ -593,6 +597,10 @@
 }
 
 @media (max-width: 576px) {
+  .hero .col-md-6:first-child {
+    margin-left: 102px;
+    margin-top: -209px;
+  }
   #contact #google-map {
     margin-top: 20px;
   }
@@ -663,8 +671,8 @@
     margin-bottom: 14em;
   }
   .hero .col-md-6:first-child {
-    margin-top: -256px;
-    margin-left: 99px;
+    margin-top: -250px;
+    margin-left: 97px;
   }
   nav {
     text-align: center;
@@ -710,7 +718,6 @@
 
   .cards .card img {
     width: 22%;
-    height: 90px;
     margin-left: 3px;
   }
 
@@ -733,5 +740,36 @@
 
   .titulo-final {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 498px) {
+  .hero .col-md-6:first-child {
+    margin-top: -242px;
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 478px) {
+  .hero .col-md-6:first-child {
+    margin-top: -242px;
+    margin-left: 32%;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .hero .col-md-6:first-child {
+    margin-top: -242px;
+    margin-left: 31%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero .col-md-6:first-child {
+    margin-top: -242px;
+    margin-left: 28%;
+  }
+}
+@media screen and (max-width: 318px) {
+  .hero .col-md-6:first-child {
+    margin-top: -242px;
+    margin-left: 21%;
   }
 }

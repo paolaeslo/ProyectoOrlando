@@ -1,8 +1,4 @@
 @media only screen and (max-width: 1924px) {
-  .portfolio-item-info a {
-    font-size: 12px;
-    margin-left: -45px;
-  }
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-block: -5px !important;
   }

@@ -53,7 +53,6 @@ h4 {
   display: block;
   width: 60px;
   height: 60px;
-  border: none;
   top: calc(50% - 35px);
   cursor: pointer;
   line-height: 30px;
@@ -61,16 +60,18 @@ h4 {
   background: none;
   color: #000;
   opacity: 50%;
+  border: none;
 }
 .carousel__anterior:hover,
 .carousel__siguiente:hover {
   opacity: 100%;
+  
 }
 .carousel__anterior {
-  left: -40px;
+  left: -60px;
 }
 .carousel__siguiente {
-  right: -40px;
+  right: -65px;
 }
 .carousel__lista {
   overflow: hidden;
@@ -93,12 +94,13 @@ h4 {
   width: 100% !important;
 }
 
+
 /* Buttons */
 .btn {
   min-width: 145px;
-  line-height: 50px;
-  padding: 0 30px;
-  font-size: 16px;
+  line-height: 40px;
+  padding: 0 23px;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 0;
@@ -274,7 +276,7 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
-  margin-left: 363px;
+  margin-left: 248px;
   margin-top: -254px;
 }
 
@@ -303,9 +305,7 @@ body {
   z-index: 1;
 }
 
-.site-section {
-  padding-top: 60px;
-}
+
 .contenedor1 h2 {
   text-align: center;
 }
@@ -316,6 +316,7 @@ body {
   font-size: 36px;
   margin: 0;
   text-transform: uppercase;
+  font-family: 'gravtrac condensed bd';
 }
 
 .img-lines {
@@ -709,6 +710,7 @@ a.icon-up-bg:hover {
   font-weight: bold;
   text-transform: uppercase;
   color: #999;
+ 
 }
 
 #contact .contact-info a {
@@ -805,7 +807,7 @@ a.icon-up-bg:hover {
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 11em;
-  margin-left: 200px;
+  margin-left: 98px;
 }
 
 .card {
@@ -875,15 +877,18 @@ a.icon-up-bg:hover {
 }
 
 .textos-header h1 {
-  font-size: 50px;
+  font-size: 71px;
   color: #fff;
   margin-top: 203px;
+  font-family: 'gravtrac condensed bd';
 }
 
 .textos-header h2 {
-  font-size: 30px;
+  font-size: 43px;
   font-weight: 300;
   color: #fff;
+  font-family: 'Heaven Wanders DEMO';
+  margin-bottom: 46px;
 }
 
 .wave {

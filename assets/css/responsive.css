@@ -61,7 +61,7 @@
     margin: 0 0 0 0;
   }
   .hero .col-md-6:first-child {
-    margin-left: 250px;
+    margin-left: 248px;
   }
 
   .hero img {
@@ -501,8 +501,10 @@
   }
 
   .site-footer .col-xs-12 {
+
     text-align: center;
   }
+ 
 }
 @media only screen and (max-width: 692px) {
   .portfolio-item-info a {
@@ -526,6 +528,9 @@
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
+  .container, .container-md, .container-sm {
+    max-width: 856px !important;
+}
 }
 
 @media (min-width: 769px) {
@@ -619,6 +624,9 @@
   #contact #google-map {
     margin-top: 20px;
   }
+  .container, .container-md, .container-sm {
+    max-width: 720px !important;
+}
 }
 
 @media screen and (max-width: 511px) {

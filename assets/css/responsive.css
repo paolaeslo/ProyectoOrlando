@@ -256,6 +256,11 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .contact {
+    width: 100%;
+    margin-top: -191px;
+    margin-left: 97px;
+}
   .hero .col-md-6:first-child {
     margin-left: 102px;
     margin-top: -209px;
@@ -587,6 +592,9 @@
 }
 
 @media (max-width: 767px) {
+  .site-footer{
+    width: 95%;
+  }
   .portfolio-item-info a {
     font-size: 13px;
     margin-left: -19px;
@@ -715,6 +723,11 @@
 }
 
 @media screen and (max-width: 498px) {
+  .contact {
+    width: 100%;
+    margin-top: -245px;
+    margin-left: 138px;
+}
   .hero .col-md-6:first-child {
     margin-top: -242px;
     margin-left: 20%;
@@ -811,7 +824,13 @@
       margin-left: 31%;
     }
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 344px) {
+    .contact{
+      width: 100%;
+      margin-top: -245px;
+      margin-left: 83px;
+    }
+
     .hero .col-md-6:first-child {
       margin-top: -242px;
       margin-left: 28%;

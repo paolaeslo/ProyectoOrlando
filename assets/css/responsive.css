@@ -586,7 +586,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 736px) {
   .portfolio-item-info a {
     font-size: 13px;
     margin-left: -19px;
@@ -614,6 +614,15 @@
   #testimonials .testimonial-item {
     margin: 30px 10px;
   }
+  .container, .container-md, .container-sm {
+    width: 70% !important;
+}
+}
+
+@media (max-width: 676px) {
+  .container, .container-md, .container-sm {
+    width: 60% !important;
+}
 }
 
 @media (max-width: 576px) {
@@ -625,7 +634,7 @@
     margin-top: 20px;
   }
   .container, .container-md, .container-sm {
-    max-width: 720px !important;
+    width: 60% !important;
 }
 }
 
@@ -634,6 +643,9 @@
     font-size: 12px;
     margin-left: 0px;
   }
+  .container, .container-md, .container-sm {
+    width: 60% !important;
+}
 }
 @media screen and (max-width: 500px) {
   .cards {
@@ -712,6 +724,9 @@
   .titulo-final {
     font-size: 20px;
   }
+  .container, .container-md, .container-sm {
+    width: 60% !important;
+}
 }
 
 @media screen and (max-width: 498px) {
@@ -794,33 +809,34 @@
     -ms-transition: border-color 0.25s ease-in-out;
   }
 
-  @media screen and (max-width: 478px) {
-    .hero .col-md-6:first-child {
-      margin-top: -242px;
-      margin-left: 32%;
-    }
-  }
+}
 
-  @media screen and (max-width: 474px) {
-    .portfolio-item-info a {
-      font-size: 12px;
-      margin-left: 0px;
-    }
-    .hero .col-md-6:first-child {
-      margin-top: -242px;
-      margin-left: 31%;
-    }
+@media screen and (max-width: 478px) {
+  .hero .col-md-6:first-child {
+    margin-top: -242px;
+    margin-left: 32%;
   }
-  @media screen and (max-width: 400px) {
-    .hero .col-md-6:first-child {
-      margin-top: -242px;
-      margin-left: 28%;
-    }
+}
+
+@media screen and (max-width: 474px) {
+  .portfolio-item-info a {
+    font-size: 12px;
+    margin-left: 0px;
   }
-  @media screen and (max-width: 318px) {
-    .hero .col-md-6:first-child {
-      margin-top: -242px;
-      margin-left: 21%;
-    }
+  .hero .col-md-6:first-child {
+    margin-top: -242px;
+    margin-left: 31%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero .col-md-6:first-child {
+    margin-top: -242px;
+    margin-left: 28%;
+  }
+}
+@media screen and (max-width: 318px) {
+  .hero .col-md-6:first-child {
+    margin-top: -242px;
+    margin-left: 21%;
   }
 }

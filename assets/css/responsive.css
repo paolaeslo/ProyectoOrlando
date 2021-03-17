@@ -593,7 +593,7 @@
 
 @media (max-width: 767px) {
   .site-footer{
-    width: 95%;
+    width: 100%;
   }
   .portfolio-item-info a {
     font-size: 13px;

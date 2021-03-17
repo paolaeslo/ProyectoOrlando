@@ -595,12 +595,12 @@ body {
 /* FOOTER
 ================================================== */
 .site-footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   padding: 30px 0;
   width: 100%;
   background-color: #212121;
-  z-index: -1;
+  z-index: 1;
 }
 
 .icon {
